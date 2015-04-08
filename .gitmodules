@@ -1,0 +1,6 @@
+[submodule "remotes/bash-git"]
+	path = remotes/bash-git
+	url = git@github.com:magicmonty/bash-git-prompt.git
+[submodule "remotes/extras"]
+	path = remotes/extras
+	url = git@github.com:mrmakeit/extras.git

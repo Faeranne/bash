@@ -1,0 +1,4 @@
+ROOTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+. $ROOTDIR/remotes/extras/bashinc
+. $ROOTDIR/remotes/bash-git/gitprompt.sh
+PATH=$PATH:./bin:./node_modules/.bin
