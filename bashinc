@@ -1,11 +1,13 @@
 ROOTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
+export NVM_DIR=$HOME/.nvm/
+
 #add our remote git repos to the source
 . $ROOTDIR/remotes/extras/bashinc
 . $ROOTDIR/remotes/bash-git/gitprompt.sh
 
-. $ROOTDIR/alias
 . $ROOTDIR/keyboard
+. $HOME/.nvm/nvm.sh
 
 PATH=$PATH:./bin:./node_modules/.bin #allow running node modules
 PATH=$PATH:$HOME/bin # custom binaries from the home dir
