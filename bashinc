@@ -7,6 +7,7 @@ export NVM_DIR=$HOME/.nvm/
 . $ROOTDIR/remotes/bash-git/gitprompt.sh
 
 . $ROOTDIR/keyboard
+. $ROOTDIR/yubikey
 . $HOME/.nvm/nvm.sh
 
 PATH=$PATH:./bin:./node_modules/.bin #allow running node modules
